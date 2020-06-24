@@ -1,7 +1,6 @@
-package model.productos;
+package model.producto;
 
-public class Zapato extends Producto{
-
+public class Zapato extends Articulo{
     private String modelo;
 
     public Zapato(int precio, String nombre, String codigo, int talla, String marca, String modelo) {

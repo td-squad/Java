@@ -1,13 +1,13 @@
-package model.productos;
+package model.producto;
 
-public abstract class Producto {
+public abstract class Articulo {
     private int precio;
     private String nombre;
     private String codigo;
     private int talla;
     private String marca;
 
-    public Producto(int precio, String nombre, String codigo, int talla, String marca) {
+    public Articulo(int precio, String nombre, String codigo, int talla, String marca) {
         this.precio = precio;
         this.nombre = nombre;
         this.codigo = codigo;
